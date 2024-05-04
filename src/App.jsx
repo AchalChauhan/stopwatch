@@ -20,7 +20,7 @@ function App() {
     return () => clearInterval(intervalId);
   }, [isRunning]);
 
-
+//  lskjd
   const startStop = () => {
     setIsRunning(prevState => !prevState);
   };
